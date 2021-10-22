@@ -523,7 +523,7 @@ In our design we have used two different size nfets:
 <p align="center">
   <img src="Images/layout/nfet.png">
 </p>
-3. W=1 L=7 [mag_file](/layout/nfet1.mag)
+2. W=1 L=7 [mag_file](/layout/nfet1.mag)
 <p align="center">
   <img src="Images/layout/nfet1.png">
 </p>
