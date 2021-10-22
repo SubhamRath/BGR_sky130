@@ -519,11 +519,15 @@ Now let's start with all leaf cell designs.
 In our circuit we are using LVT type NFETs. So we have to draw all the valid layers for the lvt nfet as per our desired sizes.
 
 In our design we have used two different size nfets:
+
 1. W=5 L=1 [mag file](/layout/nfet.mag)
+
 <p align="center">
   <img src="Images/layout/nfet.png">
 </p>
+
 2. W=1 L=7 [mag_file](/layout/nfet1.mag)
+
 <p align="center">
   <img src="Images/layout/nfet1.png">
 </p>
