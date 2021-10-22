@@ -570,7 +570,7 @@ We have created a layout by putting all the nfets in one region. We have placed 
 We have created a PFETs block by putting all the pfets together, with matching arrangement, also added the guardring. [mag file](/layout/pfets.mag)
 
 <p align="center">
-  <img src="Images/layout/pets.png">
+  <img src="Images/layout/pfets.png">
 </p>
 
 #### 4.3.3 Design of RESBANK
