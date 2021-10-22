@@ -553,6 +553,42 @@ In our design we are using PNP having emitter 3.41 * 3.41 uM.So we can use the v
   <img src="Images/layout/pnpt1.png">
 </p>
 
+### 4.3 Blocks Design
+
+#### 4.3.1 Design of NFETs
+We have created a layout by putting all the nfets in one region. We have placed the nfets in such a way that it follows common centroid matching. Also used some dummies to avoid Diffusion break and for better matching and noise protection. Also added one guard ring for enhance performance. [mag file](/layout/nfets.mag)
+
+<p align="center">
+  <img src="Images/layout/nets.png">
+</p>
+
+#### 4.3.2 Design of PFETs
+We have created a PFETs block by putting all the pfets together, with matching arrangement, also added the guardring. [mag file](/layout/pfets.mag)
+
+<p align="center">
+  <img src="Images/layout/pets.png">
+</p>
+
+#### 4.3.3 Design of RESBANK
+We have cretaed the layout of the RESBANK by putting all resistors together, with proper matching arrangemment and soe extra dummies and a guardring. [mag file](/layout/resbank.mag)
+<p align="center">
+  <img src="Images/layout/resbank.png">
+</p>
+
+#### 4.3.4 Design of PNP10
+We have created the layout by putting all the PNPs together, with appropriate matching, and used dummies to enhance noise performance. [mag file](/layout/pnp10.mag)
+<p align="center">
+  <img src="Images/layout/pnp10.png">
+</p>
+
+#### 4.3.5 Design of STARTERNFET
+We placed the the two w=1, l=7 NFETs together with a guardring to desingn the STATRTERNFET. [mag file](/layout/starternfet.mag)
+<p align="center">
+  <img src="Images/layout/starternfet.png">
+</p>
+
+
+
 
 
 [Magic]:                http://opencircuitdesign.com/magic/
