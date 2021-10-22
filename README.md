@@ -438,7 +438,13 @@ Tempco. Of Vref = ~21.7 PPM
 <p align="center">
   <img src="Images/prelayout/bgr_ff.png">
 </p>
-Tempco. Of Vref = ~21.7 PPM
+Tempco. Of Vref = ~10 PPM
+
+- Behaviour in SS corner [netlist](/prelayout/bgr_lvt_rpolyh_3p40_ss.sp)
+<p align="center">
+  <img src="Images/prelayout/bgr_ss.png">
+</p>
+Tempco. Of Vref = ~45 PPM
 
 [Magic]:                http://opencircuitdesign.com/magic/
 [Ngspice]:              http://ngspice.sourceforge.net
