@@ -587,7 +587,11 @@ We placed the the two w=1, l=7 NFETs together with a guardring to desingn the ST
   <img src="Images/layout/starternfet.png">
 </p>
 
-
+## 4.4 Top level design
+To obtain the top level design, we have placed all the blocks together, routed it. [mag file](/layout/top.mag)
+<p align="center">
+  <img src="Images/layout/top.png">
+</p>
 
 
 
