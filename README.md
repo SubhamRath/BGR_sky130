@@ -452,6 +452,55 @@ Tempco. Of Vref = ~10 PPM
 
 Tempco. Of Vref = ~45 PPM
 
+## 4. Layout Design
+
+Now after getting our final netlist, we have to design the layout for our BGR. Layout is drawning the masks used in fabrication. We are going to use the Magic VLSI tool for our layout design.
+
+### 4.1 Getting started with Magic
+
+Magic is an open source VLSI layout editor tool. To launch magic open terminal and write the following command.
+```
+$ magic -T /home/<path for sky130A.tech>/sky130A.tech 
+```
+
+Now it will open up two windows, those are `tkcon.tcl` and `toplevel`. Now let's discuss some basic magic tool operations.
+```
+g : grid on/off
+z : zoom in
+Shift + z : zoom out
+
+Draw a box : 
+  1. Left click + Right click of the mouse : pointer will be at a grid point
+  2. Right click : a blank box will be created from the pointed point to the point where right click occured
+ 
+Fill a box with a layer:
+  1. Draw a box
+  2. Select a layer from the tool manager
+  3. Middle click the mouse button
+  
+  or 
+  
+  1. Draw a box
+  2. Write "paint <layer name>" in the tkcon.tcl window
+
+
+Delete a layer:
+  1. Draw a box where you want to delete a layer
+  2. Write "erase <layer name>" in the tkcon.tcl window
+ 
+Delete an area:
+  1. Draw a box where you want to delete an area
+  2. Press 'a'
+  3. Press 'd'
+
+u : undo
+r : rotate
+m : move
+c : copy
+```
+
+
+
 [Magic]:                http://opencircuitdesign.com/magic/
 [Ngspice]:              http://ngspice.sourceforge.net
 [Netgen]:               http://opencircuitdesign.com/netgen/
