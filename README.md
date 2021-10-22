@@ -423,6 +423,19 @@ In this simulation we should get the reference voltgae as an umbrella shaped cur
   <img src="Images/prelayout/ideal_bgr.png">
 </p>
 
+#### 3.4.5 BGR with SBCM
+
+Now we will replace the ideal Op-Amp with self-biased current mirror which is our proposed design. We expect same type of output as in case of ideal OpAmp based BGR. We will also check for different corners, and will see how our circuit is performing in different corners.
+
+- Behaviour in TT corner [netlsit](/prelayout/bgr_lvt_rpolyh_3p40.sp)
+<p align="center">
+  <img src="Images/prelayout/bgr_tt.png">
+</p>
+
+Tempco. Of Vref = ~21.7 PPM
+
+- Behaviour in FF corner [netlist](/prelayout/bgr_lvt_rpolyh_3p40_ff.sp)
+
 
 
 [Magic]:                http://opencircuitdesign.com/magic/
