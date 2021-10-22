@@ -435,8 +435,10 @@ Now we will replace the ideal Op-Amp with self-biased current mirror which is ou
 Tempco. Of Vref = ~21.7 PPM
 
 - Behaviour in FF corner [netlist](/prelayout/bgr_lvt_rpolyh_3p40_ff.sp)
-
-
+<p align="center">
+  <img src="Images/prelayout/bgr_ff.png">
+</p>
+Tempco. Of Vref = ~21.7 PPM
 
 [Magic]:                http://opencircuitdesign.com/magic/
 [Ngspice]:              http://ngspice.sourceforge.net
