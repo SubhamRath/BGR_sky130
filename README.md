@@ -498,6 +498,36 @@ r : rotate
 m : move
 c : copy
 ```
+Now device wise we have the following devices in our circuit.
+- PFETS
+- NFETS
+- Resistor Bank
+- BJTs
+
+Now in order to design faster we should follow the hierarchical design manner. i.e we will design one cell then we will instance that to another level and do placement and routing.
+
+In our design we have 3 hierarchies. Those are 
+
+1. Hierarchy-1 (Basic Cells) : NFET, PFET, BJT, Resistor
+2. Hierarchy-2 (Blocks of similar cells): NFETS, PFETS, PNP10, RESBANK, STARTERNFET
+3. Hierarchy-3 (Top Level): TOP
+
+Now let's start with all leaf cell designs.
+### 4.2 Basic Cell Design
+
+#### 4.2.1 Design of NFET
+In our circuit we are using LVT type NFETs. So we have to draw all the valid layers for the lvt nfet as per our desired sizes.
+
+In our design we have used two different size nfets:
+1. W=5 L=1 [mag file](/layout/nfet.mag)
+<p align="center">
+  <img src="Images/layout/nfet.png">
+</p>
+3. W=1 l=7 [mag_file](/layout/nfet1.mag)
+<p align="center">
+  <img src="Images/layout/nfet1.png">
+</p>
+
 
 
 
