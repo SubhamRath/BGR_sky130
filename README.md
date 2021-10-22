@@ -526,12 +526,32 @@ In our design we have used two different size nfets:
   <img src="Images/layout/nfet.png">
 </p>
 
-2. W=1 L=7 [mag_file](/layout/nfet1.mag)
+2. W=1 L=7 [mag file](/layout/nfet1.mag)
 
 <p align="center">
   <img src="Images/layout/nfet1.png">
 </p>
 
+#### 4.2.2 Design of PFET
+In our circuit we are using LVT type PFETs. So we have to draw our PFET using all valid layers for lvt pfet. In our design we have one size pfet i.e W=5 L=2 [mag file](/layout/pfet.mag)
+
+<p align="center">
+  <img src="Images/layout/pfet.png">
+</p>
+
+#### 4.2.3 Design of Resistor
+In our desing we are using poly resistors of W=1.41 and L=7.8. So we have to create the magic file choosing the appropriate layers for the Resistor. [mag file](/layout/res1p41.mag)
+
+<p align="center">
+  <img src="Images/layout/res1p41.png">
+</p>
+
+#### 4.2.4 Dessing of PNP (BJT)
+In our design we are using PNP having emitter 3.41 * 3.41 uM.So we can use the valid layers to design our PNP. [mag file](/layout/pnpt1.mag)
+
+<p align="center">
+  <img src="Images/layout/pnpt1.png">
+</p>
 
 
 
