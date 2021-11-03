@@ -52,7 +52,10 @@ The Bandgap Reference (BGR) is a circuit which provides a stable voltage output 
   - [4.2 Basic cell design](##4.2-basic-cell-design)
   - [4.3 Blocks Design](##4.3-blocks-design)
   - [4.4 Top level design](##4.4-top-level-design)
-- [LVS and Post-layout Simulation](#LVS-and-post-layout-simulation)
+- [5. LVS and Post-layout Simulation](#LVS-and-post-layout-simulation)
+  - [5.1 Layout Vs. Schematic(LVS)]
+  - [5.2 Parasitic extraction(PEX)]
+  - [5.3 Post-layout Simulation(PLS)]
 
 
 ## 1. Tools and PDK setup
@@ -591,13 +594,21 @@ We placed the the two w=1, l=7 NFETs together with a guardring to desingn the ST
   <img src="Images/layout/starternfet.png">
 </p>
 
-## 4.4 Top level design
+### 4.4 Top level design
 To obtain the top level design, we have placed all the blocks together, routed it. [mag file](/layout/top.mag)
 <p align="center">
   <img src="Images/layout/top.png">
 </p>
 
+## 5. LVS and Post-layout simulaton
 
+### 5.1 LVS
+
+LVS stands for Layout vs. Schematic which essentially means to compare the Layout extrated netlist with the Designed spice netlist.
+
+In this project we are going to use Netgen to perform the LVS. 
+
+To start with netgen we can type the command ```netgen``` on the terminal. It will open up the netgen window.
 
 [Magic]:                http://opencircuitdesign.com/magic/
 [Ngspice]:              http://ngspice.sourceforge.net
