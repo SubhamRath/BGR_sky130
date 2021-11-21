@@ -53,9 +53,9 @@ The Bandgap Reference (BGR) is a circuit which provides a stable voltage output 
   - [4.3 Blocks Design](##4.3-blocks-design)
   - [4.4 Top level design](##4.4-top-level-design)
 - [5. LVS and Post-layout Simulation](#LVS-and-post-layout-simulation)
-  - [5.1 Layout Vs. Schematic(LVS)]
-  - [5.2 Parasitic extraction(PEX)]
-  - [5.3 Post-layout Simulation(PLS)]
+  - [5.1 Layout Vs. Schematic(LVS)](##5.1-Layout-Vs.-Schematic(LVS))
+  - [5.2 Parasitic extraction(PEX)](##5.2-Parasitic-extraction(PEX))
+  - [5.3 Post-layout Simulation(PLS)](##5.3-Post-layout-simulation(PLS))
 
 
 ## 1. Tools and PDK setup
